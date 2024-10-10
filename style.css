@@ -2,3 +2,24 @@ html,
 body {
   height: 100%;
 }
+
+.banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://images.unsplash.com/photo-1716703373041-bd135107d947?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVzaWduJTIwb2ZmaWNlfGVufDB8fDB8fHww");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner .row {
+  width: 90%;
+  max-width: 800px;
+}
+
+.banner p {
+  max-width: 600px;
+}
